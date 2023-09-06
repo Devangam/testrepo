@@ -11,5 +11,10 @@ pipeline{
 			echo 'Hello Word'
 		}
 	   }
+	    stage('Three'){
+		    steps {
+			    echo 'This is webhook'
+		    }
+	    }
         }
 }
